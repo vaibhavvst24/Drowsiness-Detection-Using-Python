@@ -40,6 +40,14 @@ Drowsiness-Detection-using-python/
 
 ---
 
+🔍 Project Overview:
+This is a real-time drowsiness detection system using a webcam feed. Here's what it does:
+Uses MediaPipe's Face Mesh model (a pre-trained deep learning model from Google) to detect facial landmarks.
+Calculates the Eye Aspect Ratio (EAR) from specific eye landmarks to detect whether the eyes are closing for too long (i.e., drowsiness).
+If the EAR remains below a threshold for a certain number of frames, it:
+Displays a visual alert ("Drowsiness Alert").
+Triggers a sound alarm using pygame.
+
 ## 🛠️ Setup Instructions
 
 ### 🔗 Prerequisites
